@@ -52,7 +52,7 @@
 
         <activity android:name="CellBroadcastListActivity"
                   android:label="@string/app_label"
-                  android:theme="@android:style/Theme.Material.Light"
+                  android:theme="@style/CellBroadcastTheme"
                   android:configChanges="orientation|keyboardHidden"
                   android:launchMode="singleTask">
             <intent-filter>
@@ -78,7 +78,7 @@
                   android:exported="true" />
 
         <activity android:name="CellBroadcastAlertDialog"
-                  android:theme="@android:style/Theme.Material.Light.Dialog"
+                  android:theme="@style/CellBroadcastDialogTheme"
                   android:launchMode="singleTask"
                   android:exported="false"
                   android:configChanges="orientation|keyboardHidden|keyboard|navigation" />
